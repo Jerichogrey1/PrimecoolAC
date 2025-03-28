@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AC Company</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+            position: relative;
+        }
+        .hero {
+            background: linear-gradient(to bottom, navy, royalblue);
+            color: white;
+            padding: 20px 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 90vh;
+            position: relative;
+            overflow: hidden;
+        }
+        .hero .logo {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            max-width: 500px;
+            opacity: 0.2;
+            z-index: 0;
+        }
+        .hero h1 {
+            position: relative;
+            z-index: 1;
+            font-size: 3rem;
+            font-weight: bold;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            text-shadow: 3px 3px 10px rgba(0, 0, 0, 0.5);
+        }
+        .hero button {
+            position: relative;
+            z-index: 1;
+            font-size: 1.2rem;
+            padding: 10px 20px;
+            background-color: white;
+            color: navy;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s, transform 0.2s;
+        }
+        .hero button:hover {
+            background-color: lightgray;
+            transform: scale(1.05);
+        }
+        .section {
+            background: linear-gradient(to bottom, royalblue, dodgerblue);
+            padding: 60px 20px;
+            color: black;
+            position: relative;
+        }
+        .section h2 {
+            font-size: 2.5rem;
+            font-weight: bold;
+            text-transform: uppercase;
+            letter-spacing: 1.5px;
+            text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.3);
+        }
+        .section ul {
+            list-style: none;
+            padding: 0;
+        }
+        .section li {
+            font-size: 1.5rem;
+            font-weight: bold;
+            background: rgba(255, 255, 255, 0.2);
+            padding: 10px;
+            margin: 10px auto;
+            width: 50%;
+            border-radius: 8px;
+            transition: background 0.3s;
+        }
+        .section li:hover {
+            background: rgba(255, 255, 255, 0.5);
+        }
+        .contact {
+            background: linear-gradient(to bottom, dodgerblue, lightblue);
+            color: black;
+            padding: 40px 20px;
+            position: relative;
+        }
+        .contact .logo {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            max-width: 200px;
+            opacity: 0.2;
+            z-index: 0;
+        }
+        footer {
+            background: linear-gradient(to bottom, lightblue, skyblue);
+            color: black;
+            padding: 10px 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="hero">
+        <img src="https://i.imgur.com/O19ElWX.png" alt="Company Logo" class="logo">
+        <h1>PRIMECOOL AIR CONDITIONING CORPORATION</h1>
+        <button>Call Now</button>
+    </div>
+    <div class="section">
+        <h2>HVAC CONTRACTOR</h2>
+        <ul>
+            <li>HVAC Repair</li>
+            <li>HVAC Installation</li>
+            <li>Maintenance</li>
+        </ul>
+    </div>
+    <div class="contact">
+        <img src="https://i.imgur.com/O19ElWX.png" alt="Company Logo" class="logo">
+        <h2>Contact Us</h2>
+        <p>Phone: +63-922-848-7360</p>
+        <P>Tel:   7501-2249</P>      
+        <p>Email: Primecool_accorp@yahoo.com</p>
+    </div>
+    <footer>
+        <p>&copy; 2024 AC Company. All rights reserved.</p>
+    </footer>
+</body>
+</html>
